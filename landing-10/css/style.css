@@ -7,7 +7,8 @@ html {
     margin: 0;
     padding: 0;
     border: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: 100%;
 }
 
 #myVideo {
@@ -53,7 +54,7 @@ video {
 .sub_text {
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    margin: 20px auto 120px auto;
+    margin: 20px auto 80px auto;
     letter-spacing: 0.8rem;
     text-transform: uppercase;
 }
@@ -73,12 +74,22 @@ video {
     color: white;
 }
 
+.email_text a {
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    /* letter-spacing: 0.4rem; */
+    font-size: 12px;
+}
+
 .emailph_text a {
 
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
+    font-size: 18px;
 }
 
 
@@ -137,7 +148,7 @@ ul.social-icon li a {
 }
 
 ul.social-icon li:hover {
-    background-color: white;
+    background-color: lightblue;
     border-radius: 50px;
 }
 
