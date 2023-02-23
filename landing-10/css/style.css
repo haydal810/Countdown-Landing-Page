@@ -28,7 +28,7 @@ video {
     top: 0;
     bottom: 0;
     background-color: #00000075;
-    height: 100vh;
+    height: 120vh;
 }
 
 .logo img{
@@ -50,9 +50,28 @@ video {
 }
 
 .sub_text{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Raleway' , sans-serif;
-    margin: 30px auto 30px auto;
+    margin: 20px auto 120px auto;
+    letter-spacing: 0.8rem;
+    text-transform: uppercase;
+}
+
+#footer .copyright {
+    letter-spacing: 0.2rem;
+    font-size: 0.6rem;
+    opacity: 0.75;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.emailph_text a {
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
 }
 
 
@@ -61,7 +80,7 @@ ul.count_down {
     list-style: none;
     padding: 0;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 ul.count_down li {
@@ -107,7 +126,7 @@ ul.social-icon li{
 
 ul.social-icon li a{
     color: white;
-    font-size: 18px;
+    font-size: 35px;
 }
 
 ul.social-icon li:hover {

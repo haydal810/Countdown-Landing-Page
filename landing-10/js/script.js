@@ -1,7 +1,7 @@
 
 if ($(".count_down").length) {
     $('.count_down').downCount({
-        date: '5/15/2023 12:00:00',
+        date: '3/27/2023 12:00:00',
         offset: +10
     });
 }
